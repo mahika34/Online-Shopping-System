@@ -1,4 +1,4 @@
-Topic: Supermarket management system
+Topic: Online Shopping System
 
 Technology included: SSL certification, Client server connection, CSV files
 
