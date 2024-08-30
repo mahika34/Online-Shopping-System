@@ -7,7 +7,7 @@ Description:
 
 
 Step-By-Step Guide :
-1. Use git clone https://github.com/Git-Cat-21/Computer-Networks.git to make a copy of the project on your system
+1. Use git clone https://github.com/mahika34/CN-project-4th-sem.git to make a copy of the project on your system
 2. Run the following command to start the server
 python server.py : This will start both the TCP/SSL and UDP servers. You should see messages indicating that the servers are listening for connections.
 3. Open Another Terminal/Command Prompt: Run the following command to start the client python client.py
