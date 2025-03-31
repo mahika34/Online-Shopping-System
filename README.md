@@ -1,12 +1,12 @@
 # Supermarket Management System
 
+## Description
+This project establishes a secure connection between a client and server using SSL encryption. Users on the client side can browse, search, and purchase items from the server-side database. The system ensures data integrity and security through encrypted communication.
+
 ## Technologies Used
 - **SSL Certification**: Ensures secure communication between client and server.
 - **Client-Server Connection**: Facilitates interaction between the user and the server.
 - **CSV Files**: Used for data storage and retrieval.
-
-## Description
-This project establishes a secure connection between a client and server using SSL encryption. Users on the client side can browse, search, and purchase items from the server-side database. The system ensures data integrity and security through encrypted communication.
 
 ## Installation and Usage Guide
 
