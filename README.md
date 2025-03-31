@@ -1,18 +1,46 @@
-Topic: Supermarket Management System
+# Supermarket Management System
 
-Technology included: SSL certification, Client server connection, CSV files
+## Technologies Used
+- **SSL Certification**: Ensures secure communication between client and server.
+- **Client-Server Connection**: Facilitates interaction between the user and the server.
+- **CSV Files**: Used for data storage and retrieval.
 
-Description:
-  This projects includes a connection between the client and server. It includes an SSL connection which verifies the security     of the connection established. The user from the client side can view, purchase and search for items from the server side.
+## Description
+This project establishes a secure connection between a client and server using SSL encryption. Users on the client side can browse, search, and purchase items from the server-side database. The system ensures data integrity and security through encrypted communication.
 
+## Installation and Usage Guide
 
-Step-By-Step Guide :
-1. Use git clone https://github.com/mahika34/CN-project-4th-sem.git to make a copy of the project on your system
-2. Run the following command to start the server
-python server.py : This will start both the TCP/SSL and UDP servers. You should see messages indicating that the servers are listening for connections.
-3. Open Another Terminal/Command Prompt: Run the following command to start the client python client.py
-4. Authenticate: Enter the username and password when prompted. Valid credentials here are as follows:
-Username: root, Password: root or Username: root1, Password: root1
-5. Interact with the System and Enjoy !!!
-6. Generate a self signed SSL certificate using OpenSSL : https://www.youtube.com/watch?v=c-LEHJy5g8Y
+### Clone the Repository
+```
+git clone https://github.com/mahika34/CN-project-4th-sem.git
+cd CN-project-4th-sem
+```
+
+### Start the Server
+Run the following command to initiate both TCP/SSL and UDP servers:
+```
+python server.py
+```
+You should see messages indicating that the servers are listening for connections.
+
+### Start the Client
+Open a new terminal or command prompt and execute:
+```
+python client.py
+```
+
+### Authentication
+Upon running the client, enter valid login credentials:
+- **Username:** root, **Password:** root
+- **Username:** root1, **Password:** root1
+
+### Interaction
+Once authenticated, you can:
+- View available items.
+- Search for specific products.
+- Purchase items securely through the system.
+
+### Generating a Self-Signed SSL Certificate
+To set up SSL encryption, generate a self-signed SSL certificate using OpenSSL. Follow this guide:
+[Generate SSL Certificate](https://www.youtube.com/watch?v=c-LEHJy5g8Y)
 
