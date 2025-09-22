@@ -81,7 +81,6 @@ def handle_client(server_socket):
                 message3 = message3.decode("utf-8")
                 sum1+=purchase(file, message2, message3, client_address,  server_socket)
             elif message == "3":
-
                 modified_message1 = pickle.dumps(receipt)
                 server_socket.sendto(modified_message1, client_address)
                 # modified_message2 = str(sum_value).encode("utf-8")
